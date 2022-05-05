@@ -1,0 +1,60 @@
+# @see https://git-scm.com/docs/gitignore
+
+# `.DS_Store` is a file that stores custom attributes of its containing folder
+.DS_Store
+
+# Logs
+logs
+*.log
+
+# Dependencies
+node_modules
+bower_components
+vendor
+
+# yarn v2
+.yarn/*
+!.yarn/cache
+!.yarn/patches
+!.yarn/plugins
+!.yarn/releases
+!.yarn/sdks
+!.yarn/versions
+
+# Envs
+.env
+
+# Databases
+*.db
+
+# Caches
+.cache
+.npm
+.eslintcache
+
+# Temporaries
+.tmp
+.temp
+
+# Built
+dist
+target
+built
+output
+out
+
+# Editor directories and files
+.idea
+.templates
+template.config.js
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# Push Scripts
+push.bat
+push.sh
+
+        
