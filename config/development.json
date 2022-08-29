@@ -1,0 +1,12 @@
+{
+    "token": "TOKEN_DEV",
+    "mongodbURI": "MONGODB_LOCALHOST",
+    "nodes": [
+        {
+            "host": "NODE1_HOST",
+            "port": "NODE1_PORT",
+            "password": "NODE1_PASSWORD",
+            "secure": true
+        }
+    ]
+}

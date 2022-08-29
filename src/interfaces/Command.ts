@@ -1,12 +1,12 @@
 import {
+    ChatInputCommandInteraction,
     SlashCommandBuilder,
     SlashCommandSubcommandsOnlyBuilder,
-} from "@discordjs/builders";
-import { CommandInteraction } from "discord.js";
+} from "discord.js";
 import { Bot } from "../client";
 
 interface Run {
-    (bot: Bot, interaction: CommandInteraction);
+    (bot: Bot, interaction: ChatInputCommandInteraction);
 }
 
 export interface Command {
